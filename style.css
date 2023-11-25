@@ -8,14 +8,27 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: white;
+    background-color:black;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#face{
-    position: absolute;
-    width: 100%;
-    height: 46vmax;
-    background-image: url(ultra-instinct-goku-dragon-ball-super-thumb.jpg);
-    background-size: cover;
+nav {
+    left: 40px;
+    position: relative;
+    left: -17cm;
+    background-color: grey;
+    padding: 12px 27px;
+    margin: 13px;
+}
+nav.profile {
+    list-style: circle;
+    position: relative;
+    border-radius: 100px;
+    width: 10cm;
+    height: 59px;
+    right: 630px;
+    color: white;
+    background-color: gray;
 }
