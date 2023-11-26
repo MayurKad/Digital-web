@@ -15,20 +15,12 @@ body{
     align-items: center;
 }
 nav {
-    left: 40px;
     position: relative;
-    left: -17cm;
+    left: -17cm; 
     background-color: grey;
     padding: 12px 27px;
     margin: 13px;
 }
-nav.profile {
-    list-style: circle;
-    position: relative;
-    border-radius: 100px;
-    width: 10cm;
-    height: 59px;
-    right: 630px;
-    color: white;
-    background-color: gray;
+nav ul li a i{
+    list-style: none;
 }
